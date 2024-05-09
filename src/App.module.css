@@ -1,0 +1,58 @@
+*{
+  text-align: center;
+  background: #000;
+}
+
+h1{
+  font-size: 52px;
+  background: -webkit-linear-gradient(#f5f3f3, #2f2e2e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#input{
+  width: 100vb;
+  height: 7vh;
+  border-color: rgb(156, 197, 248);
+  color: white;
+  font-size: large;
+}
+
+
+label{
+  font-size: larger;
+  font-weight: 600;
+  color: white;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  font-size: large;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+  color: white;
+}
+
+li:hover {
+  background-color: #d3dadc;
+  color: #000;
+}
+
+.active {
+  border: 1px solid dodgerblue;
+}
+
+.main{
+  width: 55vw;
+  height: 92vh;
+  border: 2px solid black;
+  margin-left: 25%;
+  overflow: scroll;
+  scrollbar-width: none;
+}
