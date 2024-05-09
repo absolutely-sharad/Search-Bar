@@ -86,7 +86,6 @@ export default function App() {
 
 #### Technologies Used
 - React
-- jsPDF
 - CSS Modules
 
 ### Author
